@@ -82,13 +82,11 @@
 
 
 /* others */
-
-.titleee {
-  margin-top: 30px;
+.titleer {
+  margin: 15px;
   color: #3e4355;
-  font-size: 28px;
-  font-weight: 700;
-  padding: 2%;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .para {
@@ -179,8 +177,9 @@
 }
 
 .othersPad{
-  padding-left: 10%;
-  padding-right: 10%;
+ display: flex;
+ justify-content: space-around;
+ padding: 1% 6% 8% 6%;
 }
 
 .videowireframe{
