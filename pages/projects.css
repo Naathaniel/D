@@ -41,12 +41,19 @@
   color: #0097a7;
   font-weight: 700;
   letter-spacing: 5px;
-  padding-top: 150px;
+  padding: 50px;
+}
+
+.subw1 {
+  color: #0097a7;
+  font-weight: 700;
+  letter-spacing: 5px;
+  padding: 100px 0 10px 0;
 }
 
 .gallery-section {
-  padding: 80px 5%;
-  background-color: #f9f9f9;
+  padding: 30px 5% 80px 5%;
+  /* background-color: #f9f9f9; */
   text-align: center;
 }
 
@@ -78,6 +85,46 @@
 .gallery-item:hover img {
   transform: scale(1.05);
 }
+
+.video-section {
+  padding: 80px 20px;
+  background: #f8f9fb;
+}
+
+.video-grid {
+  max-width: 1200px;
+  margin: 40px auto 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.video-card {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 ratio */
+  background: #000;
+  border: solid 1px #0097a7;
+  border-radius: 9px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.video-card iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.morvid{
+  margin: 0 6%;
+  padding-top: 10px;
+  text-align: end;
+  font-style: italic;
+}
+
 
 
 
